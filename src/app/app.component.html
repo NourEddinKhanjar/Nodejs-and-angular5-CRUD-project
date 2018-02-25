@@ -1,0 +1,19 @@
+<h2>List of users</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>User Id</th>
+        <th>User Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users">
+        <td>{{user.user_id}}</td>
+        <td>{{user.name}}</td>
+    </tr>
+    </tbody>
+    <tbody>
+    </tbody>
+</table>
+
